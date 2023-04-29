@@ -3,7 +3,7 @@ const PizzaItem = ({ title, description, prize}) => {
       <div className="pizza-item-container">
         <h2>{title}</h2>
         <h3>{description}</h3>
-        <h3>{prize}</h3>
+        <h3>${prize}</h3>
       </div>
     );
   };

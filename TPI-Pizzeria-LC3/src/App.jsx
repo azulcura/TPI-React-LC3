@@ -1,11 +1,10 @@
-import { useState } from 'react'
+
 import Logo from './img/Logo.png'
 import './App.css'
-import './Constant.js'
-import Pizza from './Components/Pizza/Pizza'
+import Pizza from './Components/Pizza/Pizza';
+import Pizzas from './Constant';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -16,8 +15,7 @@ function App() {
       </div>
       <h2>Marcello & Santino</h2>
       <div>
-        <Pizza Pizza = {pizza} />
-
+      <Pizza pizza = {Pizzas}/>
       </div>
 
     </>

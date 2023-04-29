@@ -1,5 +1,4 @@
-
-export const PIZZAS = [
+const Pizzas = [
   {
     id: 1,
     title: "Pizza Mozzarella",
@@ -43,3 +42,5 @@ export const PIZZAS = [
     prize: 2500,
   },
 ];
+
+export default Pizzas;
