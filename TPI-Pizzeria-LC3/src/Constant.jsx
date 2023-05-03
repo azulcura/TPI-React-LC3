@@ -1,9 +1,12 @@
+
 const Pizzas = [
   {
     id: 1,
     title: "Pizza Mozzarella",
     description: "Salsa de tomate / Mozzarella",
     prize: 2300,
+
+
   },
   {
     id: 2,
