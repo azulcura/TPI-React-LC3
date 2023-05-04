@@ -1,3 +1,4 @@
+import ahumada from './img/ahumada.jpg'
 
 const Pizzas = [
   {
@@ -5,7 +6,7 @@ const Pizzas = [
     title: "Pizza Mozzarella",
     description: "Salsa de tomate / Mozzarella",
     prize: 2300,
-
+    imagen: ahumada
 
   },
   {
@@ -35,7 +36,7 @@ const Pizzas = [
   {
     id: 6,
     title: "Pizza Mozzarella Ahumada",
-    description: "Salsa de tomate / Mozzarella / Mozzarella ahumada",
+    description: "Salsa de tomate / Mozzarella ahumada",
     prize: 2400,
   },
   {
