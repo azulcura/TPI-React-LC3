@@ -1,3 +1,5 @@
+import "./PizzaItem.css";
+
 const PizzaItem = ({ title, description, prize}) => {
     return (
       <div className="pizza-item-container">

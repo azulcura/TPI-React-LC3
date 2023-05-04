@@ -7,6 +7,7 @@ const Pizza = ({ pizza }) => {
           title={pizza[0].title}
           description={pizza[0].description}
           prize={pizza[0].prize}
+
         />
         <PizzaItem
           title={pizza[1].title}
