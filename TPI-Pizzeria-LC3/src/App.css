@@ -1,22 +1,32 @@
-
-
 .All-App{
-  background-color: white;
+  background-color: rgb(255, 243, 193);
 }
 
 .logo {
-  height: 350px;
+  height: 250px;
   border: 100px;
-  margin-top: 0px;
+  padding-left: 100px;
+  top: 0;
+  left: 0;
+  position: absolute;
 }
 
 .Top {
+  height: 150px;
   text-align: center;
   display: block;
   margin: 0 auto; 
-  margin-top: 10px; 
+  margin-top: 10px;
+  padding-top: 100px; 
   font-size: 20px; 
-  font-weight: bold; 
+  font-weight: bold;
+}
+
+.List-Header{
+
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
 }
 
 .App {
@@ -25,18 +35,9 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
-  
-}
-
-
-.footer{
-  display: flex;
-  grid-template-columns: auto auto auto auto;
-  list-style: none;
-  padding: 0;
-  margin: 0;
 
 }
+
 body {
   margin: 0;
   display: flex;
@@ -51,15 +52,12 @@ body {
 }
 
 header {
-  display: grid;
   justify-content: space-between;
   justify-content: center;
   background-color: rgb(258, 242, 230);
-  border-bottom-left-radius: 250px;
-  border-bottom-right-radius: 250px;
-  grid-template-columns: auto auto auto auto;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
 }
-
 
 ul {
   list-style: none;
